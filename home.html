@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+<style>
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #D0EBEC;
+  } 
+
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background:rgba(0,0,0,0.6);
+    padding: 0 100px;
+    box-sizing: border-box;
+    background-color: #acacac;
+
+  }
+  .logo{
+    float: left;
+    height: min-content;
+    
+    margin: 0;
+    padding: 0;
+    
+  }
+ 
+  nav ul{
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  } 
+  nav ul li{
+    list-style: none;
+  }
+  nav ul li a{
+    position: relative;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    font-size: 25px;
+  }
+  nav ul li a:hover{
+    color:#062a78;
+  }
+  .home {
+    width: 100%;
+    height: 120vh;
+    background-image: url("csi2.jpg");
+    background-position: center top;
+  background-size:cover;
+  
+}
+footer{
+    background-color: #174C4F;
+    height: 50px;
+    align-items:center;
+
+
+
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   align-items: center;
+    margin-left: 650px;
+}
+
+.items{
+    max-width: 1170px;
+    margin:auto;
+    margin-left: 650px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+@media all and (max-width:700px){
+  .myP {
+    padding:2%;
+  }
+}
+
+
+
+
+
+
+</style>
+</head>
+ <body>
+<nav>
+  <div class="logo">
+  <img src="csi-logo.png" height="125">
+   
+  </div>
+  <ul>
+    <li class="nav-link active-link"><a href="#">Home</a></li>
+    <li class="nav-link"><a href="/events">Events</a></li>
+    <li class="nav-link"><a href="/login" >Register</a></li>
+     <li class="nav-link"><a href="/contact" >ContactUs</a></li>
+  </ul>
+</nav>
+
+
+   
+
+<br><br><br><br><br>
+ <section class="home">
+    </section>  
+  <footer>
+      
+            <div class="footer-col">
+                
+                <div class="social-links">
+                    <div class="container">
+                    <a href="#"><span data-feather="facebook"></span></a>
+                    <a href="#"><span data-feather="mail"></span></a>
+                    <a href="#"><span data-feather="instagram"></span></a>
+                    <a href="#"><span data-feather="twitter"></span></a>
+                </div>
+                </div>
+            </div>
+    
+  </footer>
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
